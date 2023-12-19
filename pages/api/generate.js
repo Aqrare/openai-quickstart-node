@@ -31,7 +31,7 @@ export default async function (req, res) {
       model: "gpt-3.5-turbo",
       messages: [{
         role: 'system',
-        content: 'Can you consider the bussiness synagies of these two companies ? Outputs should be in Japanese and please refer 有価証券報告書'
+        content: 'Can you consider the bussiness synagies of these two companies ?'
       },{
         role: 'user',
         content: animal+companyA
